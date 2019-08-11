@@ -6,5 +6,6 @@ public class HoraMinuto {
 	public int hora;
 	public int minuto;
 	public int mes;
+	public int ano;
 
 }
