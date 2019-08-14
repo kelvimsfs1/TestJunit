@@ -13,14 +13,17 @@ public class HoraMinutoUtil {
 				
 				
 				if (h.hora >= 24) {
+				    while (h.hora >= 24) 
 					h.dia += 1;
 					h.hora -= 24;
 
 					if (h.dia >= 30) {
+					    while (h.dia >= 30)
 						h.mes += 1;
 						h.dia -= 30;
 
 						if (h.mes >= 12) {
+						    while (h.mes >= 12)
 							h.ano += 1;
 							h.mes -= 30;
 
